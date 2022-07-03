@@ -494,7 +494,7 @@
 					"listen": "test",
 					"script": {
 						"exec": [
-							"pm.test(\"Check the request response code is 404\", function () {\r",
+							"pm.test(\"Check the request response code is 404 deleted PET\", function () {\r",
 							"    pm.response.to.have.status(404);\r",
 							"});"
 						],
